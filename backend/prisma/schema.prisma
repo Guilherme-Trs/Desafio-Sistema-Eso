@@ -1,0 +1,51 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id         String        @id @default(cuid())
+  email      String        @unique
+  password   String
+  vbucks     Int           @default(10000)
+  createdAt  DateTime      @default(now())
+  cosmetics  UserCosmetic[]
+  transactions Transaction[]
+}
+
+model Cosmetic {
+  id          String        @id
+  name        String
+  type        String
+  rarity      String
+  image       String?
+  price       Int?
+  isNew       Boolean       @default(false)
+  onSale      Boolean       @default(false)
+  createdAt   DateTime      @default(now())
+  userItems   UserCosmetic[]
+}
+
+model UserCosmetic {
+  id          String    @id @default(cuid())
+  user        User      @relation(fields: [userId], references: [id])
+  userId      String
+  cosmetic    Cosmetic  @relation(fields: [cosmeticId], references: [id])
+  cosmeticId  String
+  boughtAt    DateTime  @default(now())
+  returnedAt  DateTime?
+}
+
+model Transaction {
+  id          String    @id @default(cuid())
+  user        User      @relation(fields: [userId], references: [id])
+  userId      String
+  cosmeticId  String?
+  type        String
+  amount      Int
+  createdAt   DateTime  @default(now())
+}
