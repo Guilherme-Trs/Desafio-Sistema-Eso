@@ -1,18 +1,20 @@
-// backend/prisma/seed.js
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 import fs from "fs";
 
 const prisma = new PrismaClient();
 
 async function main() {
-  // lê o arquivo shop.json que você colou na raiz do backend
-  const raw = fs.readFileSync("./shop.json", "utf8");
+  // lê o arquivo como texto e remove BOM se existir
+  let raw = fs.readFileSync("./shop.json", "utf8");
+  if (raw.charCodeAt(0) === 0xFEFF) {
+    raw = raw.slice(1);
+  }
+
   const obj = JSON.parse(raw);
   const cosmetics = obj.cosmetics || [];
 
   let count = 0;
   for (const item of cosmetics) {
-    // alguns campos podem ser nulos — tratamos
     await prisma.cosmetic.upsert({
       where: { id: item.id },
       update: {
@@ -21,8 +23,8 @@ async function main() {
         rarity: item.rarity ?? null,
         price: item.price ?? null,
         isNew: item.isNew ?? false,
-        isInShop: item.onSale ?? false, // mapear onSale -> isInShop (ou ajuste se preferir)
-        raw: item, // guarda o objeto original
+        isInShop: item.onSale ?? false,
+        raw: item,
       },
       create: {
         id: item.id,
