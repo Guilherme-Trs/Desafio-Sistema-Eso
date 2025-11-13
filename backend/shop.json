@@ -1,7 +1,4 @@
-﻿{
-  "page": 1,
-  "total": 13652,
-  "totalPages": 569,
+{
   "cosmetics": [
     {
       "id": "Wrap_ZirconSweep",
@@ -10,8 +7,7 @@
       "rarity": "rare",
       "price": null,
       "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.316Z"
+      "isNew": true
     },
     {
       "id": "Wrap_ZebraScramble",
@@ -20,8 +16,7 @@
       "rarity": "uncommon",
       "price": null,
       "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.311Z"
+      "isNew": true
     },
     {
       "id": "Wrap_Zebra",
@@ -30,219 +25,7 @@
       "rarity": "uncommon",
       "price": null,
       "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.306Z"
-    },
-    {
-      "id": "Wrap_YuzuCrank",
-      "name": "TRON: Ares Glow",
-      "type": "wrap",
-      "rarity": "rare",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.300Z"
-    },
-    {
-      "id": "Wrap_WrangleWoof",
-      "name": "Barkington's Best",
-      "type": "wrap",
-      "rarity": "uncommon",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.294Z"
-    },
-    {
-      "id": "Wrap_WoodsFestive",
-      "name": "Bushie Bright",
-      "type": "wrap",
-      "rarity": "uncommon",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.288Z"
-    },
-    {
-      "id": "Wrap_WomensDay23",
-      "name": "Reinvention",
-      "type": "wrap",
-      "rarity": "rare",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.282Z"
-    },
-    {
-      "id": "Wrap_WiryPerk",
-      "name": "Good Game!",
-      "type": "wrap",
-      "rarity": "rare",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.275Z"
-    },
-    {
-      "id": "Wrap_Winter_Pal",
-      "name": "Slushy Sneak",
-      "type": "wrap",
-      "rarity": "rare",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.270Z"
-    },
-    {
-      "id": "Wrap_Winterfest23",
-      "name": "Winterfest Flurry",
-      "type": "wrap",
-      "rarity": "uncommon",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.264Z"
-    },
-    {
-      "id": "Wrap_WingedMedieval",
-      "name": "Burning Dragon",
-      "type": "wrap",
-      "rarity": "uncommon",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.255Z"
-    },
-    {
-      "id": "Wrap_WingBath",
-      "name": "For Mandalore",
-      "type": "wrap",
-      "rarity": "starwars",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.249Z"
-    },
-    {
-      "id": "Wrap_WeaveHarbor",
-      "name": "Eh Theme",
-      "type": "wrap",
-      "rarity": "icon",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.240Z"
-    },
-    {
-      "id": "Wrap_WaywardRebel",
-      "name": "Champion's Hexaglow",
-      "type": "wrap",
-      "rarity": "uncommon",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.235Z"
-    },
-    {
-      "id": "Wrap_WastelandCaution",
-      "name": "Wastelander's Mark",
-      "type": "wrap",
-      "rarity": "uncommon",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.229Z"
-    },
-    {
-      "id": "Wrap_WartyBrine",
-      "name": "Dillicious",
-      "type": "wrap",
-      "rarity": "rare",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.223Z"
-    },
-    {
-      "id": "Wrap_WarmShade",
-      "name": "Shaqsleeves",
-      "type": "wrap",
-      "rarity": "icon",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.217Z"
-    },
-    {
-      "id": "Wrap_VoidRedemption",
-      "name": "Sophisticat",
-      "type": "wrap",
-      "rarity": "uncommon",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.211Z"
-    },
-    {
-      "id": "Wrap_VitalPsych",
-      "name": "Highwired",
-      "type": "wrap",
-      "rarity": "uncommon",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.205Z"
-    },
-    {
-      "id": "Wrap_Virtuous",
-      "name": "Silver Dirge",
-      "type": "wrap",
-      "rarity": "uncommon",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.198Z"
-    },
-    {
-      "id": "Wrap_VioletFare",
-      "name": "Ocean's Glow",
-      "type": "wrap",
-      "rarity": "rare",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.191Z"
-    },
-    {
-      "id": "Wrap_Villainess_Vault",
-      "name": "Escapees",
-      "type": "wrap",
-      "rarity": "uncommon",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.185Z"
-    },
-    {
-      "id": "Wrap_Venice",
-      "name": "Massai Fire",
-      "type": "wrap",
-      "rarity": "rare",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.178Z"
-    },
-    {
-      "id": "Wrap_Veiled_Glitch",
-      "name": "Nexus Counterpart",
-      "type": "wrap",
-      "rarity": "rare",
-      "price": null,
-      "onSale": false,
-      "isNew": true,
-      "createdAt": "2025-11-01T16:50:11.173Z"
+      "isNew": true
     }
   ]
 }
-
