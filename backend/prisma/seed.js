@@ -4,9 +4,9 @@ import fs from "fs";
 const prisma = new PrismaClient();
 
 async function main() {
-  // Lê shop.json e remove BOM
+  // Lê shop.json e remove BOM se existir
   let raw = fs.readFileSync("./shop.json", "utf8");
-  if (raw.charCodeAt(0) === 0xFEFF) raw = raw.slice(1);
+  if (raw && raw.charCodeAt(0) === 0xFEFF) raw = raw.slice(1);
 
   const obj = JSON.parse(raw);
   const cosmetics = obj.cosmetics || [];
