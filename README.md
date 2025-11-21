@@ -212,7 +212,7 @@ Authorization: Bearer TOKEN
 
 # 📝 Observações
 - O backend no Render utiliza SQLite embarcado.
-- Um próximo passo pode ser adicionar o Controle de Pais quando dor criar uma conta.
+- Um próximo passo pode ser adicionar o Controle de Pais.
 
 ---
 
