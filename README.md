@@ -212,8 +212,7 @@ Authorization: Bearer TOKEN
 
 # 📝 Observações
 - O backend no Render utiliza SQLite embarcado.
-- Alguns cosméticos podem não ter preço (`price: null`) dependendo do seed.
-- Caso desejado, posso realizar um seed completo com valores de preços e imagens para fins de demonstração.
+- Um próximo passo pode ser adicionar o Controle de Pais quando dor criar uma conta.
 
 ---
 
